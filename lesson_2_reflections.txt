@@ -13,3 +13,7 @@ with git diff (no parameters), you can compare what you have in the staging area
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 Branches are an extremely useful tool which allow you to manage seperate versions of your code. For example, if you wanted to try something experimentally, you could create a seperate branch from the master. This way your team can continue to work on the master, but you could work on the experimental feature yourself. Later you can opt to merge the branches.
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams provide a clear picture of how certain commits can be 'lost' or not on a path where they're able to be accessed. git checkout -b 'branch name' is used to both create a branch and then check it out
