@@ -17,3 +17,7 @@ Branches are an extremely useful tool which allow you to manage seperate version
 How do the diagrams help you visualize the branch structure?
 
 Diagrams provide a clear picture of how certain commits can be 'lost' or not on a path where they're able to be accessed. git checkout -b 'branch name' is used to both create a branch and then check it out
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+merging the branches together keeps a combination of that data added by both branches and the original code if neither branch deleted it. git log --graph --oneline to view the changes including merges in a vertical line
