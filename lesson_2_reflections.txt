@@ -9,3 +9,7 @@ staging area is where you store your files which you’d like to commit in the f
 How can you use the staging area to make sure you have one commit per logical change?
 
 with git diff (no parameters), you can compare what you have in the staging area with what you have in the working directory, so that you can see exactly what changes you're about to commit. this way you can take a look at what you're about to add to the staging area. git diff --staged shows you the difference between the staging area and the commit, so you can double check the changes that you're about to commit. also git reset --hard clears all changes in the working directorty and the staging area.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches are an extremely useful tool which allow you to manage seperate versions of your code. For example, if you wanted to try something experimentally, you could create a seperate branch from the master. This way your team can continue to work on the master, but you could work on the experimental feature yourself. Later you can opt to merge the branches.
