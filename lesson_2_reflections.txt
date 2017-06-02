@@ -1,3 +1,5 @@
+test
+
 What happens when you initialize a repository? Why do you need to do it?
 
 type git init to initialise. doesn’t create any commits. creates repository
