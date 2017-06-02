@@ -13,3 +13,7 @@ Forks are used on github in order to make a copy of an existing project belongin
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 For 1 thing, having the last known state of the remote stored locally allows you to use git status in order to see how many commits ahead of this state you are. By pulling code off of github, you are essentially fetching and then merging this code into your own. The reason most pulls happen 'automatically' is because they are fast-forward merges, wherein the commit to be merged into is an ancestory of the other commit. Eg in git merge master origin/master, if master is an ancestor of origin/master, the merge will be fast-forwarded because all of the code from master will have already been deliberately edited, removed or kept in in origin/master.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+sharing code and collaborating would be far more difficult without git and github. they allow for smooth code review, sharing, mering and far more. the process of keeping track of different versions of code for different branches or forks would be infinitely more confusing if it weren't for git and github.
