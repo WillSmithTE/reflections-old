@@ -1,5 +1,5 @@
 test save
-testing again
+TESSSSTtesting again
 testing testing
 
 Viewing 2 versions of the file helped to identify the cause of the bug for two main reasons. Firstly, having the programs side-by-side makes it much easier to identify a difference and hence find a potential error. Secondly, by reducing the code down to the actual line differences between the two programs, I no longer had to trawl through an entire program just to find one line which was wrong.
